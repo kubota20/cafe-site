@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  background-color: lemonchiffon;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN',
+    'Hiragino Sans', Meiryo, 'Qwitcher Grypen', cursive, sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
